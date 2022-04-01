@@ -160,3 +160,10 @@ h2 {
   letter-spacing: 2px;
   color: #0B0D17;
 }
+@media (max-width: 500px) {
+  body {
+    background-image: url(assets/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
